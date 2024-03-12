@@ -65,7 +65,7 @@ a {
 .card {
   .rounded-box();
   border: 1px solid rgb(0, 0, 0);
-  box-shadow: 8px 8px 0 0 rgba(0, 0, 0, 100);
+  box-shadow: 8px 8px 0 0 rgba(0, 0, 0, 1);
 
   &-body {
     padding: 1.5rem;
@@ -77,10 +77,7 @@ a {
       .image {
         height: 200px;
         border-radius: 10px;
-        background-image: url("./assets/images/illustration-article.svg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background: url("./assets/images/illustration-article.svg") center/cover no-repeat border-box;
       }
 
       .content {
